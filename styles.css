@@ -277,13 +277,16 @@ a {
   padding-left: 12px;
 }
 .social-icons {
+  margin: 0 auto;
   margin-top: 30px;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  
 }
 .social-icons img {
   width: 30px;
   height: 30px;
+  padding-right: 15px;
 }
 .about-img {
   padding: 10px 0;
@@ -625,6 +628,12 @@ a {
     margin: 0 auto;
   }
 
+  /* Social Icons */
+  .social-icons img {
+    width: 35px;
+    height: 35px;
+    padding-right: 25px;
+  }
   /* Nav Section */
   .site-nav ul {
     display: flex;
