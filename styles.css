@@ -648,6 +648,8 @@ a {
   .welcome-img {
     grid-column: 5/9;
     grid-row: 1;
+    width: 400px;
+    height: 400px;
   }
   .welcome-text {
     grid-column: 1/5;
